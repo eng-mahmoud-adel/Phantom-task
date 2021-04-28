@@ -1,0 +1,20 @@
+.license-card {
+    padding: 76px 24px 24px 24px;
+    background-color: #2B2F55 !important;
+    border-radius: 8px !important;
+}
+
+.license-card p {
+    font-size: 22px;
+}
+
+.license-card small {
+    font-size: 14px;
+}
+
+.license-card button {
+    width: 100%;
+    background-color: #323662;
+    border: 1px solid #323662;
+    height: 48px;
+}

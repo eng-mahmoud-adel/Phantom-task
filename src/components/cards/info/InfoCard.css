@@ -1,0 +1,45 @@
+.info-card {
+    padding: 24px;
+    background-color: #2B2F55 !important;
+    border-radius: 8px !important;
+}
+
+.info-card button {
+    width: 100%;
+    background-color: #323662;
+    border: 1px solid #323662;
+    height: 48px;
+}
+
+/* start modal */
+.modal .modal-dialog .modal-content {
+    background-color: #2D325A;
+    border-radius: 8px;
+}
+
+.modal .modal-dialog .modal-content .modal-header {
+    border-bottom: 0;
+}
+
+.modal .modal-dialog .modal-content .modal-body h6 {
+    font-size: 12px;
+}
+
+.modal .modal-dialog .modal-content .modal-body input {
+    background-color: #252A4B;
+    border: 1px solid#252A4B;
+    border-radius: 4px;
+    color: white;
+}
+
+.modal .modal-dialog .modal-content .modal-footer {
+    border-top: 0;
+    background-color: #292D52;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.modal .modal-dialog .modal-content .modal-footer button {
+    width: 100%;
+}
+/* end modal */

@@ -1,0 +1,22 @@
+.failure-card {
+    background-color: #2B2F55 !important;
+    flex-direction: row !important;
+    align-items: center;
+    padding: 24px;
+    max-height: 117px;
+    border-radius: 8px !important;
+}
+
+.failure-card .card-title {
+    font-size: 14px;
+}
+
+.failure-card .card-body {
+    font-size: 14px;
+}
+
+.failure-card .card-body span {
+    font-size: 28px;
+    color: #FE7448;
+    font-weight: bold;
+}

@@ -1,0 +1,73 @@
+.nav {
+    flex-direction: row-reverse;
+}
+
+.nav .dropdown a::after {
+    display: none;
+}
+
+.nav .dropdown h6 {
+    font-size: 14px;
+    color: white;
+}
+
+.nav .dropdown small {
+    font-size: 12px;
+    color: grey;
+}
+
+.nav .dropdown .dropdown-menu:first-of-type {
+    inset: 0 0 auto 0 !important;
+}
+
+.nav .notification .light {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+
+.nav .dropdown-notification button::after {
+    display: none;
+}
+
+.nav .dropdown-notification button {
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    border: 1px solid #2D325A;
+    background-color: #2D325A;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.nav .dropdown-notification.show {
+    border-radius: 8px;
+}
+
+.nav .dropdown-notification.show button {
+    background-color: #01A9F4;
+    border: 1px solid #01A9F4;
+}
+
+.nav .dropdown-notification.show button svg:last-of-type path {
+    fill: white;
+}
+
+.nav .dropdown-notification.show button:focus {
+    box-shadow: none;
+}
+
+.nav .dropdown-notification .dropdown-menu {
+    background-color: #2C3159;
+    width: 320px;
+    height: 347px;
+    transform: translate(-120px, 55px) !important;
+    padding: 16px;
+    color: white;
+}

@@ -1,0 +1,46 @@
+.table {
+    font-size: 14px;
+}
+
+.table thead tr th:first-of-type {
+    border: 0;
+    background-color: #2B2F55;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.table thead tr th:last-of-type {
+    border: 0;
+    background-color: #2B2F55;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.table thead tr th {
+    border: 0;
+    background-color: #2B2F55;
+}
+
+.table tbody tr:first-of-type td {
+    border-top: 0;
+}
+
+.table tbody tr td {
+    border-top: 1px solid grey;
+}
+
+.table tbody tr td.status {
+    font-size: 10px;
+}
+
+.table tbody tr td.success span {
+    background-color: rgba(99, 244, 247, 0.2);
+    color: #63F4F7;
+    font-weight: bold;
+}
+
+.table tbody tr td.fail span {
+    background-color: #8a4c39;
+    color: #FE7448;
+    font-weight: bold;
+}

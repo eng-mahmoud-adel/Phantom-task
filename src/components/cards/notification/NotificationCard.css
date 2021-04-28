@@ -1,0 +1,22 @@
+#notification-card .row .nav {
+    border: 1px solid #FE7448;
+    border-radius: 4px;
+}
+
+#notification-card .row .nav:first-of-type {
+    border-right: none;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    padding: 0 0 0 8px;
+}
+
+#notification-card .row .nav:last-of-type {
+    border-left: none;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    padding: 8px 75px 8px 0px;
+}
+
+#notification-card p {
+    font-size: 12px;
+}
